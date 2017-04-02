@@ -98,7 +98,7 @@ public class GradleWebModuleImpl implements WebModuleImplementation2 {
 
     @Override
     public Profile getJ2eeProfile() {
-        return Profile.JAVA_EE_6_WEB;
+        return Profile.JAVA_EE_7_FULL;
     }
 
     @Override
