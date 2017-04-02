@@ -27,6 +27,7 @@ nbm {
     licenseFile = 'license.txt'
     moduleName = 'org.netbeans.gradle.javaee.project'
     localizingBundle = 'org/netbeans/gradle/javaee/plugin/Bundle.properties'
+    moduleInstall = 'org.netbeans.gradle.javaee.web.GradleWebModuleInstall'
 
     requires 'cnb.org.netbeans.gradle.project'
 
@@ -79,6 +80,7 @@ dependencies {
     providedCompile netbeansModule('org.netbeans.modules', 'org-netbeans-modules-web-beans')
     providedCompile netbeansModule('org.netbeans.modules', 'org-netbeans-modules-j2ee-persistenceapi')
     providedCompile netbeansModule('org.netbeans.modules', 'org-netbeans-modules-projectapi-nb')
+    providedCompile netbeansModule('org.netbeans.modules', 'org-netbeans-modules-web-jsfapi')
 
     providedCompile "com.github.kelemen:netbeans-gradle-plugin:${nbGradleVersion}"
 
